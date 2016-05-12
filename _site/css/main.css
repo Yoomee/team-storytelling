@@ -996,3 +996,6 @@ li {
   justify-content: center;
   background: #F4F4F4;
   margin: 30px; }
+
+.section-cta .cta-item:nth-child(1) {
+  margin-right: 0; }
