@@ -1,14 +1,6 @@
 
 # Site settings
 
-
-# Dependencies
-markdown:         redcarpet
-highighter:       true
-
-# Permalinks
-permalink:        /blog/:title
-
 # Setup
 title:            Writegood
 url:              http://yoomee.github.io/writegood
@@ -16,8 +8,6 @@ url:              http://yoomee.github.io/writegood
 author:
   name:           'Writegood'
   url:            http://writegood.com
-
-paginate:         10
 
 # Custom vars
 version:          1.0.0
