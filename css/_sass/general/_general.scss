@@ -1,0 +1,93 @@
+
+.site-header{
+  padding:30px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom:40px;
+  &.--main{
+    background: url(../images/ts_header.jpg) no-repeat 0 0;
+    background-size: cover;
+    min-height: 445px;
+    .header__description{
+      color:$white;
+    }
+  }
+}
+
+.header__title{
+  font-family: $logo-font;
+  font-size: $xx-large-font-size;
+  color:$white;
+  display: inline-block;
+  width: 100%;
+}
+
+.header__description{
+  display: inline-block;
+  width: 100%;
+  font-size: $medium-font-size;
+}
+
+h2, h3{
+  font-size: $large-font-size;
+}
+
+.section-content{
+  padding:10px 0;
+  display: inline-block;
+  width: 100%;
+  &.--center{
+    text-align: center;
+  }
+}
+
+.row{
+  width: 100%;
+}
+
+.section__title{
+  padding-bottom: 15px;
+}
+
+ul{
+  margin:30px 0;
+}
+li{
+  font-size: $medium-font-size;
+  font-family: 'exo-italic';
+  margin:5px 0;
+}
+.site-logo{
+  margin:-78px 0 20px 0;
+}
+.cta-block{
+  background:$grey;
+  padding:$base-unit*6;
+  margin:50px 0;
+}
+.cta-block__title{
+  margin-bottom:$base-unit*2; 
+}
+
+.cta__button{
+  background: $red;
+  color:$white;
+}
+
+.section-cta{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  min-height: 400px;
+}
+.section-cta .cta-item {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $grey;
+  margin:30px;
+}
