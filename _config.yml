@@ -1,21 +1,27 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Writegood
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yoomee.github.io/team-storytelling" # the base hostname & protocol for your site
-twitter_username: yoomee
-github_username:  yoomee
 
-# Build settings
-markdown: kramdown
+
+# Dependencies
+markdown:         redcarpet
+highighter:       true
+
+# Permalinks
+permalink:        /blog/:title
+
+# Setup
+title:            Writegood
+url:              http://yoomee.github.io/writegood
+
+author:
+  name:           'Writegood'
+  url:            http://writegood.com
+
+paginate:         10
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           ''
+baseurl:          ''
