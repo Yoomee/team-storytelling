@@ -10,11 +10,15 @@
   text-decoration: none;
   font-size: $medium-font-size;
   color:$black;
+  transition: all .2s ease-in;
   &.--white{
     background:$white;
   }
   &.--red{
     background: $red;
     color:$white;
+  }
+  &:hover{
+    opacity: .9;
   }
 }

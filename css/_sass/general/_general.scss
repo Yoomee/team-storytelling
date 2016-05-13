@@ -8,11 +8,15 @@
   &.--main{
     background: url(../images/ts_header.jpg) no-repeat 0 0;
     background-size: cover;
-    min-height: 445px;
+    min-height: 518px;
     .header__description{
       color:$white;
     }
   }
+}
+
+.site-logo{
+  margin:-98px 0 20px 0;
 }
 
 .header__title{
@@ -58,9 +62,7 @@ li{
   font-family: 'exo-italic';
   margin:5px 0;
 }
-.site-logo{
-  margin:-78px 0 20px 0;
-}
+
 .cta-block{
   background:$grey;
   padding:$base-unit*6;
@@ -70,26 +72,27 @@ li{
   margin-bottom:$base-unit*2; 
 }
 
-.cta__button{
-  background: $red;
-  color:$white;
-}
-
 .section-cta{
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
   text-align: center;
   min-height: 400px;
+  @include media-query(sm){
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
 }
 .section-cta .cta-item {
-  width: 50%;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: $grey;
-  margin:30px;
+  margin-bottom:1px;
+  width: 100%;
+  @include media-query(sm){
+    width: 50%;
+    margin:30px;
+  }
 }
 
 .section-cta .cta-item:nth-child(1){
